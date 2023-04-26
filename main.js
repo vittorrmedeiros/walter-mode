@@ -15,7 +15,7 @@ function jaime() {
         ladeira = document.getElementById("waltuh").src = degrau;
 
     }else {
-        jesse = walter.replace("walterblack", "walterwhite");
+        jesse = walter.replace("walterblack", "walterwhite"); 
         resultado = document.body.className = jesse;
 
         bisturi = pitongo.replace("Black", "White");
