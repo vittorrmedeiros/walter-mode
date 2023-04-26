@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+p {
+    font-size: 20px;
+    position: relative;
+    right: 20em;
+    top: 14em;
+}
+
+#waltuh {
+    width: auto;
+    height: 30.5rem;
+}
+
+#hutlaw {
+    width: auto;
+    height: 30.5rem;
+}
+
+.walterwhite {
+    background-color: #FFFFFF;
+    color: #000000;
+}
+.walterblack {
+    background-color: #000000;
+    color: #FFFFFF;
+}
