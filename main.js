@@ -1,7 +1,7 @@
 const btn = document.querySelector(".waltuh");
 
 function jaime() {
-    var walter = document.body.className;
+        walter = document.body.className;
     if(walter == "walterwhite"){
         jesse = walter.replace("walterwhite", "walterblack");
         resultado = document.body.className = jesse;
@@ -14,7 +14,7 @@ function jaime() {
         degrau = escada.replace("waltuh", "hutlaw");
         ladeira = document.getElementById("waltuh").src = degrau;
 
-    } else {
+    }else {
         jesse = walter.replace("walterblack", "walterwhite");
         resultado = document.body.className = jesse;
 
@@ -22,7 +22,8 @@ function jaime() {
         canavial = document.getElementById("saul").textContent = bisturi;
 
         escada = document.getElementById("waltuh").src;
-        degrau = escada.replace("hutlaw", "waltuh")
+        degrau = escada.replace("hutlaw", "waltuh");
         ladeira = document.getElementById("waltuh").src = degrau;
+
     }
 }
